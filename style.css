@@ -1,0 +1,200 @@
+/* GENERAL */
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f7fc;
+    margin:0;
+    padding:0;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#4f46e5 !important;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* BUTTONS */
+
+.btn{
+    border-radius:15px;
+    padding:10px 20px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* CARDS */
+
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* TABLES */
+
+.table{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+/* TITLES */
+
+h1,h2,h3,h4,h5{
+    font-weight:bold;
+}
+
+/* HERO SECTION */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:22px;
+    color:#666;
+}
+
+/* LOGIN & REGISTER PAGE */
+
+.auth-page{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+    ),
+
+    url('https://images.unsplash.com/photo-1556911220-bff31c812dba');
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* GLASS CARD */
+
+.auth-card{
+
+    width:430px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    background:
+    rgba(255,255,255,0.85);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* INPUTS */
+
+.form-control{
+    border-radius:12px;
+    padding:12px;
+}
+
+/* DASHBOARD */
+
+.dashboard-bg{
+    background:
+    linear-gradient(
+    135deg,
+    #eef2ff,
+    #ffffff
+    );
+    min-height:100vh;
+}
+
+/* DASHBOARD CARDS */
+
+.menu-card{
+    border:none;
+
+    border-radius:20px;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    font-size:50px;
+}
+
+/* PROFILE CARD */
+
+.profile-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:
+    0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* LINKS */
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    opacity:0.8;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#777;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.auth-card{
+    width:90%;
+}
+
+}
